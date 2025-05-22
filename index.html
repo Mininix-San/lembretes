@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daoshi Trade - Painéis</title>
+  <style>
+    body {
+      background-image: url('https://lh3.googleusercontent.com/d/1wdPn1l98dwN2wBfCGBeAC0MKtNed1in2');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: 'Comic Sans MS', cursive;
+      color: #ddd;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .panel {
+      background-color: rgba(33, 33, 33, 0.9);
+      border: 2px solid #00ff0c;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 10px;
+      width: 300px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+    .panel h2 {
+      color: #ecff00;
+      margin-bottom: 15px;
+    }
+    button {
+      background-color: #ff0000;
+      border: none;
+      padding: 10px 15px;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    p {
+      text-align: left;
+      line-height: 1.5;
+    }
+  </style>
+  <script>
+    function copyText(text) {
+      navigator.clipboard.writeText(text)
+        .then(() => alert("Texto copiado para a área de transferência!"))
+        .catch(err => alert("Erro ao copiar o texto: " + err));
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Lembrete 1 -->
+  <div class="panel">
+    <h2>Coloque texto aqui</h2>
+  </div>
+
+  <!-- Lembrete 2 -->
+  <div class="panel">
+    <h2>Coloque texto aqui</h2>
+  </div>
+
+  <!-- Lembrete 3 -->
+  <div class="panel">
+    <h2>Coloque texto aqui</h2>
+    </button>
+  </div>
+
+  <!-- Lembrete 4 -->
+  <div class="panel">
+    <h2>Coloque texto aqui</h2>
+  </div>
+
+  <!-- Lembrete 5 -->
+  <div class="panel">
+    <h2>Coloque texto aqui</h2>
+  </div>
+
+</body>
+</html>
